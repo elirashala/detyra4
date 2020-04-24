@@ -45,7 +45,6 @@ input{
     justify-content: center;
     background-color: white;
 }
-
 .row > div {
     background-color: white;
     width: 350px;
@@ -54,37 +53,35 @@ input{
     line-height: 40px;
     font-size: 30px;
   }
-  .Market  > img{
+.Market  > img{
       width: 60px;
   }
-  .Market > .p1{
+.Market > .p1{
         font-size: 70%;
   }
-  .Market > .p2{
+.Market > .p2{
       font-size: 45% ;
   }
 
-  .Strategic  > img{
+.Strategic  > img{
     width: 60px;
 }
-    .Strategic > .p21{
+.Strategic > .p21{
       font-size: 70%;
 }
-    .Strategic > .p22{
+.Strategic > .p22{
     font-size: 45% ;
 }
 
-   .Soles  > img{
+.Soles  > img{
     width: 60px;
 }
-    .Soles > .p31{
-      font-size: 70%;
+.Soles > .p31{
+	font-size: 70%;
 }
-    .Soles > .p32{
+.Soles > .p32{
     font-size: 45% ;
 }
-
-
 body{
     padding: 0;
     margin: 0;
@@ -165,14 +162,13 @@ body{
     padding: 7px;
     color: white;
 }
-
 .card {
  	float: left;
  	padding-left: 90px;
  
 }
 .container {
-  padding: 2px 10px;
+	padding: 2px 10px;
 
 }
 .title-block{
@@ -180,27 +176,27 @@ body{
 	font-family: Sans-Serif;
 }
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 5px;
-  text-align: center;
-  text-decoration: none;
-  height: 20px;
+	padding: 20px;
+	font-size: 30px;
+	width: 5px;
+	text-align: center;
+	text-decoration: none;
+	height: 20px;
 }
 .fa-facebook {
-  color: darkblue;
+	color: darkblue;
 }
 .fa-twitter {
-  color: darkblue;
+	color: darkblue;
 }
 .fa-google{
 	color: darkblue;
 }
 .overlay{
-font-family: sans-serif;
-position: relative;
-text-align: center;
-line-height: 5px;
+	font-family: sans-serif;
+	position: relative;
+	text-align: center;
+	line-height: 5px;
 }
 .testcontainer{
     background-color: blue;
@@ -219,28 +215,28 @@ line-height: 5px;
     float: left;
 }
 .bottom-right {
-  color: white;
-  position: absolute;
-  bottom: 20%;
-  left: 60%;
+	color: white;
+	position: absolute;
+	bottom: 20%;
+	left: 60%;
 }
 .centered-right {
-  color: white;
-  position: absolute;
-  top: 37%;
-  left: 60%;
+	color: white;
+	position: absolute;
+	top: 37%;
+	left: 60%;
 }
 .left-top{
-  color: white;
-  position: absolute;
-  top: 37%;
-  left: 40%;
+	color: white;
+	position: absolute;
+	top: 37%;
+	left: 40%;
 }
 .left-bottom{
-  color: white;
-  position: absolute;
-  bottom: 22%;
-  left: 40%;
+	color: white;
+	position: absolute;
+	bottom: 22%;
+	left: 40%;
 }
 .title1{
 	color: white;
@@ -254,4 +250,8 @@ line-height: 5px;
 	top: 49%;
 	right: 65%;
 }
-
+.footer{
+	display: flex;
+    justify-content: center;
+	margin: 30px 30px ;
+}
