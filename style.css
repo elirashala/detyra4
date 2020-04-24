@@ -1,3 +1,257 @@
-header {
-	display: flex;
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: #2B40B9;
+    background-image: url("office.png");
+    color: white;
+    width: auto;
 }
+.Power{
+    font-family: 'Muli',sans-serif;
+    padding: 20px 0 20px 0;
+    margin: 22% 22% 22% 22%;
+}
+input{
+        border-radius: 10px;
+        border-style: none;
+        color: white;
+        width: 80px;
+    }
+ #contact-Us{
+     background-color:rgb(109, 18, 109) ;
+ }
+ #learn-More{
+    background-color:rgb(236, 17, 207) ;
+}    
+
+  
+.Smart{
+    font-family: 'Muli',sans-serif;
+    margin: 8% 8% 8% 8%;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.h3{
+    font-size: 150%;
+}
+.row{
+    
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.row > div {
+    background-color: white;
+    width: 350px;
+    margin: 70px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+  }
+  .Market  > img{
+      width: 60px;
+  }
+  .Market > .p1{
+        font-size: 70%;
+  }
+  .Market > .p2{
+      font-size: 45% ;
+  }
+
+  .Strategic  > img{
+    width: 60px;
+}
+    .Strategic > .p21{
+      font-size: 70%;
+}
+    .Strategic > .p22{
+    font-size: 45% ;
+}
+
+   .Soles  > img{
+    width: 60px;
+}
+    .Soles > .p31{
+      font-size: 70%;
+}
+    .Soles > .p32{
+    font-size: 45% ;
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.vid-promo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/officeimg.jpg');
+    background:linear-gradient(0deg, rgba(43, 64, 185, 0.582), rgba(43, 64, 185, 0.582)), url('images/officeimg.jpg');
+    height: 55vh;
+    background-position: center;
+}
+.vidicon{
+    height: 100px;
+}
+.vid-promo h1{
+    color: white;
+    font-family: sans-serif;
+}
+
+.items2{
+    display: flex;
+    justify-content: center;
+    height: 45vh;
+    align-items: center;
+}
+.items2 div{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.items2 img{
+    height: 50px;
+}
+.items2 h1{
+    margin: 0;
+    font-family: sans-serif;
+}
+.items2 p{
+    margin: 0;
+    color: rgba(0, 0, 255, 0.822);
+    font-family: sans-serif;
+}
+.container2{
+    background-color: rgb(243, 243, 243);
+}
+.getconnected{
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: 55vh;
+    align-items: center;
+    margin: auto;
+}
+.getconnected img{
+    height: 280px;
+    margin-right: 50px;
+}
+.getconnected ul{
+    margin-top: 0;
+    color: gray;
+    font-family: sans-serif;
+    font-size: medium;
+    padding-left: 20px;
+}
+.getconnected h1{
+    margin-bottom: 0;
+    font-family: sans-serif;
+}
+.getconnected button{
+    background-color: rgba(76, 0, 130, 0.822);
+    border-style: none;
+    border-radius: 12px;
+    padding: 7px;
+    color: white;
+}
+
+.card {
+ 	float: left;
+ 	padding-left: 90px;
+ 
+}
+.container {
+  padding: 2px 10px;
+
+}
+.title-block{
+	text-align: center;
+	font-family: Sans-Serif;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 5px;
+  text-align: center;
+  text-decoration: none;
+  height: 20px;
+}
+.fa-facebook {
+  color: darkblue;
+}
+.fa-twitter {
+  color: darkblue;
+}
+.fa-google{
+	color: darkblue;
+}
+.overlay{
+font-family: sans-serif;
+position: relative;
+text-align: center;
+line-height: 5px;
+}
+.testcontainer{
+    background-color: blue;
+    display: flex;
+    height: 13px;
+    width: 300px;
+    margin: 30px 170px ;
+    align-items: center;
+    padding-left: 2px;
+    margin-bottom: 160px;
+}
+.testsl{
+    background-color: white;
+    height: 8px;
+    width: 240px;
+    float: left;
+}
+.bottom-right {
+  color: white;
+  position: absolute;
+  bottom: 20%;
+  left: 60%;
+}
+.centered-right {
+  color: white;
+  position: absolute;
+  top: 37%;
+  left: 60%;
+}
+.left-top{
+  color: white;
+  position: absolute;
+  top: 37%;
+  left: 40%;
+}
+.left-bottom{
+  color: white;
+  position: absolute;
+  bottom: 22%;
+  left: 40%;
+}
+.title1{
+	color: white;
+	position: absolute;
+	top: 45%;
+	right: 62%;
+}
+.title2{
+	color: white;
+	position: absolute;
+	top: 49%;
+	right: 65%;
+}
+
